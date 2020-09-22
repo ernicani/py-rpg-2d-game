@@ -1,3 +1,5 @@
+#This code is just to create a 2d interface and a "character" if you go with the arrow keys to the edges you "die" and start over or quit the game
+
 import pygame
 import time
 
@@ -8,7 +10,7 @@ white = (255,255,255)
 black = (0,0,0)
 red = (255,0,0)
 
-gameOver_message = "Fin de la partie,C pour recommencer ou Q pour quitter"
+gameOver_message = "End of the game, C to start over or Q for to left the game"
 
 display_width = 800
 display_height = 600
@@ -16,7 +18,7 @@ display_height = 600
 gameDisplay = pygame.display.set_mode((display_width,display_height))
 
 
-pygame.display.set_caption('My Game')
+pygame.display.set_caption('TEST')
 
 clock = pygame.time.Clock()
 
