@@ -10,7 +10,7 @@ white = (255,255,255)
 black = (0,0,0)
 red = (255,0,0)
 
-gameOver_message = "End of the game, C to start over or Q for to left the game"
+gameOver_message = "End of the game, R to restart over or Q for to left the game"
 
 display_width = 800
 display_height = 600
